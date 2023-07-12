@@ -8,10 +8,10 @@ public class TestJPA {
 
     public static void main(String[] args) {
         
-        Estudiante estudiante = new Estudiante("11111", "Cristian", "Munoz", new Date ("2/28/2001"));
+        Estudiante estudiante = new Estudiante("1234", "Cristian", "Editado", new Date ("2/28/2001"));
         ControladorPersistencia control = new ControladorPersistencia();
         
-        control.crearEstudiante(estudiante);
+        control.editarEstudiante(estudiante);
     }
     
 }
